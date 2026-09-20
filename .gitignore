@@ -1,0 +1,33 @@
+# Local / IDE
+.cursor/
+.vscode/
+*.code-workspace
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.token
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.ruff_cache/
+
+# Scratch
+*.log
+.temp/
+.tmp/

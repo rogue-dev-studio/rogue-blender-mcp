@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "rogue-blender": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "git+https://github.com/rogue-dev-studio/rogue-blender-mcp.git",
+        "rogue-blender-mcp"
+      ],
+      "env": {
+        "BLENDER_MCP_HOST": "localhost",
+        "BLENDER_MCP_PORT": "9876"
+      }
+    }
+  }
+}
