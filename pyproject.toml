@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "rogue-blender-mcp"
-version = "1.0.0"
+version = "1.0.1"
 description = "Rogue Development MCP server for Blender — modeling, sculpting, and scene control"
 readme = "README.md"
 license = "MIT"

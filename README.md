@@ -13,7 +13,13 @@
 
 Default socket: `localhost:9876`.
 
-## Install (Cursor)
+## Install (no clone)
+
+Requires [uv](https://github.com/astral-sh/uv) on PATH (`uvx`).
+
+### Cursor MCP config
+
+Paste into `~/.cursor/mcp.json` (or merge under `mcpServers`), then restart Cursor:
 
 ```json
 {
@@ -34,12 +40,18 @@ Default socket: `localhost:9876`.
 }
 ```
 
-Or copy `cursor.mcp.fragment.json` into your project / user MCP config, then restart Cursor.
+Or copy `cursor.mcp.fragment.json` from this repo.
 
-## Local editable install
+One-liner check (downloads from GitHub, no clone):
 
 ```bash
-pip install -e .
+uvx --from git+https://github.com/rogue-dev-studio/rogue-blender-mcp.git rogue-blender-mcp
+```
+
+### Local editable install
+
+```bash
+uv pip install -e .
 rogue-blender-mcp
 ```
 

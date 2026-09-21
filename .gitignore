@@ -31,3 +31,5 @@ build/
 *.log
 .temp/
 .tmp/
+
+uv.lock
