@@ -2,7 +2,7 @@
 
 **Rogue Development** MCP bridge for Blender 5.1+ — modeling, sculpting, mesh ops, and full scene control through your AI host (Cursor, Claude Code, and compatible clients).
 
-- Market: https://rogue-dev-studio.github.io/rogue-market-agent/
+- Asset Store: https://rogue-dev-studio.github.io/rogue-asset-store/
 - Repo: https://github.com/rogue-dev-studio/rogue-blender-mcp
 
 ## Requirements
