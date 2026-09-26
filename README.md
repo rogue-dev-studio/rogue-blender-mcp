@@ -73,7 +73,7 @@ Through the live Blender session the agent can:
 
 ## Contact
 
-- Email: aris.hadisopiyan@gmail.com
+- Contact: https://rogue-dev-studio.github.io/contact/
 - Studio: https://rogue-dev-studio.github.io/
 
 ## License
